@@ -409,6 +409,9 @@ FROM astronauts;
 SELECT MAX(Space_flight_hr), count(*) AS num_of_astronauts
 FROM astronauts;
 
+<img width="371" alt="project1 1" src="https://user-images.githubusercontent.com/115603371/195241811-1b698739-e3f1-4e64-a9a8-9d14e5cdf83a.PNG">
+
+
 /* Display astronauts name, space walk in hours only having 2 or more space walks, also display the average time of each walk to two decimal places */
 SELECT Name,
     Space_Walks_hr,
